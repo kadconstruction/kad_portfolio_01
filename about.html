@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+ <link rel="stylesheet" href="style.css">
+ <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- header -->
+  <header class="header">
+   <a href="#">
+     <img src="kadlogo.png" alt="logo">
+   </a> 
+   <div class="navMenu" id="navMenu">
+   <i class='bx bx-window-close' onclick="closeMenu()"></i>
+    <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="services.html">Services</a></li>
+     <li><a href="portfolio.html">Portfolio</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>   
+   </div>
+   <i class='bx bx-menu' onclick="openMenu()"></i>
+  </header>
+  
+  <!-- sub header -->
+  <section class="sub-header" id="sub-header">
+    <h1>About <span>Me</span></h1>
+  </section>
+  
+  <!-- About session-->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="techguyback.png" alt="tech guy">
+    </div>
+    <div class="about-text">
+      <h4><span>I'm a </span>Design technologist</h4>
+      <p>who loves building and creating with technology, especially in robotics and coding. I enjoy turning ideas into real, working systems and I’m always curious about how things function and how they can be improved.<br><br> Problem-solving is a big part of what drives me, and I like challenging myself with new tech projects that push my creativity and skills.
+With a growing passion for robotics,<br<br> programming, and innovation, I’m focused on learning and improving every day. I enjoy experimenting with different ideas, building projects, and finding smarter ways to make things work. My goal is to keep developing my skills and use technology to create useful and exciting solutions.<br><br>
+When I’m not working on tech projects, I like to explore new ideas, relax, and sometimes just take a break to reset my mind. I believe balance is important because it helps me come back with better focus and stronger ideas for whatever I’m building next.</p>
+      <a href="whatsapp://send?phone=2349064230595&text=*Hello%20KAD%20From%20Your%20Portfolio%20I%20want%20to%20talk%20with%20you:*" class="btn">
+          Let's talk
+      </a>
+    </div>
+  </section>
+  
+  <section class="others" id="others">
+    <div class="sub-text-title">
+    <h2>Why <span>me?</span></h2>   
+    </div> 
+    <div class="others-img">
+      <img src="kadlogo.png" alt=""> 
+      <span class="circle-spin"></span>
+    </div>
+    <div class="others-text">
+      <h3><span>As </span>a Design Technologist</h3>
+      <p>
+         - I bring a unique perspective to my work, combining technical expertise with creative vision.<br><br>
+         - I understand that each person and each project is unique, and I tailor my approach to meet individual needs.<br><br>
+         - I help people achieve their full potential and make their dreams a reality.
+      </p>
+    </div>
+    <div>
+      <a href="whatsapp://send?phone=2349064230595&text=*Hello%20KAD%20From%20Your%20Portfolio%20I%20want%20to%20hire%20you:*" class="btn">Hire me</a>
+    </div>
+  </section>
+  
+ <!-- Footer -->
+  <footer class="footer">
+    <div class="attribution">
+      <p>Design with <i class="bx bx-laptop"> </i>By KAD</p>
+    </div> 
+    <div class="move-up">
+      <a href="#sub-header"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+  
+  <!-- JS for Google Menu -->
+<script>
+   var navMenu = document.getElementById("navMenu");
+   
+   function openMenu() {
+       navMenu.style.right = "0";
+   }
+   
+   function closeMenu() {
+       navMenu.style.right = "-200px";
+   }
+</script>
+</body>
+</html>
